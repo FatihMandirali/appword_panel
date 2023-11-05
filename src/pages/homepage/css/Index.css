@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.questionBox{
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+.answerBox{
+    width: 40%;
+    background-color: yellow;
+    margin: auto;
+}
+
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+
+.clearBoth{
+    clear:both;
+    content: "";
+}
+
+.borderRadius{
+    border-radius: 20px;
+}
+
+.step{
+    float: right;
+    font-size: 20px;
+}
+
+.btn{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+}
