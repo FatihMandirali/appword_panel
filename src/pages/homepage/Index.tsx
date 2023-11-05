@@ -1,10 +1,19 @@
 import "./css/Index.css"
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {WordListService} from "../../services/homepage/homepageService";
 import {WordList} from "../../dtos/wordList";
 function Index(){
-    const [wordList] = useState<WordList[]>(WordListService);
+    const [wordList,setWordList] = useState<WordList[]>([]);
     const [step,setStep] = useState<number>(0);
+
+    useEffect(() => {
+        const repository: WordListService = new WordListService();
+
+        repository.getWordList().then((response: WordList[]) => {
+            console.log("test");
+            setWordList(response);
+        });
+    }, []);
 
     const StepUpdate = (answer:string) => {
         let trueAnswer = wordList[step].trueAnswer;
@@ -13,11 +22,16 @@ function Index(){
 
         if(step+1>=wordList.length){
             alert("Yarışma bitti, Tekrar Başla..");
+            window.location.reload();
             return;
         }
         setStep(step+1);
     }
     const WordQuestionSolution = () =>{
+        if(wordList.length<=0){
+            alert("Çözülecek Kelime Bulunamadı.");
+            return;
+        }
         let word = wordList[step];
         return(
             (
@@ -51,7 +65,7 @@ function Index(){
             <div className={"step"}>
                 {step+1}/{wordList.length}
             </div>
-            {WordQuestionSolution()}
+            {wordList.length>0 ? WordQuestionSolution() : "Bekleniyor"}
         </div>
 
     );
