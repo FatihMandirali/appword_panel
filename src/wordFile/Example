@@ -1,0 +1,1022 @@
+let s = "İnstructions-\tTalimatlar\n" +
+    "Outlaw-\tHaydut\n" +
+    "Courage-\tCesaret\n" +
+    "Shuffle-\tKarıştırmak\n" +
+    "Sunshine-\tGüneş ışığı\n" +
+    "Steam-\tBuhar\n" +
+    "Avoid-\tkaçınmak\n" +
+    "void-\tgeçersiz\n" +
+    "Unsure-\tEmin değilim\n" +
+    "Resiliency-\tesneklik\n" +
+    "Struggle-\tçabalamak\n" +
+    "Easer-\tDaha kolay\n" +
+    "awhile-\tBirsüre\n" +
+    "Sufle-\tBoğmak\n" +
+    "Rest-\tdinlenmek\n" +
+    "Weariness-\tyorgunluk\n" +
+    "Thought-\tdüşünce\n" +
+    "tale-\tmasal\n" +
+    "Land-\tkara\n" +
+    "Breathe-\tNefes almak\n" +
+    "Farther-\tDaha uzağa\n" +
+    "Segregation-\tayrım\n" +
+    "scan-\ttaramak\n" +
+    "Fragmantation-\tparçalanmak\n" +
+    "Took-\talınmış\n" +
+    "Slave-\tköle\n" +
+    "Sentiel-\tnöbetçi\n" +
+    "Gaze-\tBakış\n" +
+    "Anticipating-\tÖn görmek\n" +
+    "Familiar-\ttanıdık\n" +
+    "Revulsion-\tTiksinti\n" +
+    "Creatures-\tyaraktıklar\n" +
+    "Enemies-\tdüşmanlar\n" +
+    "Approached-\tyaklaştı\n" +
+    "Nod-\tBaşını sallamak\n" +
+    "pointed-\tişaretlendi\n" +
+    "still-\thala\n" +
+    "Decay- \tçürümek\n" +
+    "Bit-\tbiraz\n" +
+    "Revealed-\tAçığa kavuşmuş\n" +
+    "Wield-\tkullanmak\n" +
+    "Mighty-\tgüçlü\n" +
+    "Excuse-\tmazeret\n" +
+    "Puzzling-\tŞaşırtıcı\n" +
+    "Fragile-\tkırılgan\n" +
+    "Shuttle-\tServis aracı\n" +
+    "flammable-\tyanıcı\n" +
+    "Flam-\tAlev\n" +
+    "Unattended-\tgözetimsiz\n" +
+    "gone-\tgitmiş\n" +
+    "Pleasure-\tzevk\n" +
+    "Give up-\tPes etmek\n" +
+    "Threw-\tattı\n" +
+    "Wheel-\ttekerlek\n" +
+    "Let-\tİzin vermek\n" +
+    "Breathe-\tnefes\n" +
+    "Through-\tBaşından sonuna kadar\n" +
+    "Majestic-\tgörkemli\n" +
+    "Waves-\tdalgalar\n" +
+    "Suitable-\tuygun\n" +
+    "Kidnap-\tAdam kaçırmak\n" +
+    "ride-\tbinmek\n" +
+    "rock-\ttaş\n" +
+    "criminals-\tsuçlular\n" +
+    "Fight-\tkavga\n" +
+    "several-\tbirkaç\n" +
+    "rise-\tdoğmak\n" +
+    "extend-\tuzatmak\n" +
+    "demand-\tTalep etmek\n" +
+    "Leasurly-\tRahat bir şekilde \n" +
+    "Stately-\tgörkemli\n" +
+    "Toward-\tkarşı\n" +
+    "Felt- \tkeçe\n" +
+    "Wore-\tgiydi\n" +
+    "Shiny-\tparlak\n" +
+    "calm-\tsakinlik\n" +
+    "Habit-\talışkanlık\n" +
+    "shock-\tşok\n" +
+    "Heaven-\tcennet\n" +
+    "Buzzed-\tvızıltı\n" +
+    "dice-\tzar\n" +
+    "chance-\tŞans\n" +
+    "Eternity-\tsonsuzluk\n" +
+    "Terrible-\tkorkunç\n" +
+    "Greet-\tselamlaşmak\n" +
+    "Politely-\tkibarca\n" +
+    "Beaten-\tdövmek\n" +
+    "Contentedly-\tmemnuniyetle\n" +
+    "Rug-\tkilim\n" +
+    "ladder-\tmerdiven\n" +
+    "Understood-\tAnlaşıldı\n" +
+    "horizon-\tufuk\n" +
+    "whole-\ttüm\n" +
+    "appointment-\trandavu\n" +
+    "Sketch-\tkroki\n" +
+    "matter-\tkonu\n" +
+    "Glow-\tparıltı\n" +
+    "sat-\tdoygunluk\n" +
+    "intended-\tAmaçlanan\n" +
+    "Rather-\toldukça\n" +
+    "Annoyed-\tsinirli\n" +
+    "satisfaction-\tmemnuniyet\n" +
+    "abroad-\tyurtdışı\n" +
+    "crime-\tsuç\n" +
+    "Competition-\tyarışma\n" +
+    "Pleased-\tmemnun\n" +
+    "heard-\tduyulmuş\n" +
+    "Throughput-\tVerim\n" +
+    "Exhausted-\tyorgun\n" +
+    "Reflection-\tRefleks\n" +
+    "Awful-\tberbat\n" +
+    "Famaus-\tünlü\n" +
+    "Stove-\tocak\n" +
+    "alone-\tTek başına\n" +
+    "Along-\tboyunca\n" +
+    "broken-\tkırılmış\n" +
+    "Upset-\tüzgün\n" +
+    "Tidy-\tdüzenli\n" +
+    "predicted-\tTahmin\n" +
+    "Prescribed-\treçete\n" +
+    "recall-\thatırlamak\n" +
+    "Convenient-\tuygun\n" +
+    "Foolish-\taptalça\n" +
+    "rare-\tnadir\n" +
+    "Tough-\tzorlu\n" +
+    "Essential-\tgerekli\n" +
+    "affordable-\tEkonomik\n" +
+    "shed-\tbaraka\n" +
+    "browse-\taraştır\n" +
+    "among-\tarasında\n" +
+    "bare-\tçıplak\n" +
+    "hyper-\tAşırı\n" +
+    "village-\tköy\n" +
+    "met-\ttanışmak\n" +
+    "spoke-\tkonuştu\n" +
+    "Tendency-\teğilim\n" +
+    "alive-\tcanlı\n" +
+    "mesh-\törgü\n" +
+    "frame-\tçerçeve\n" +
+    "Hang-\tasmak\n" +
+    "indeed-\tgerçekten\n" +
+    "interview-\tgörüşme\n" +
+    "Steal-\tHırsızlık yapmak\n" +
+    "steals-\tçalmak\n" +
+    "Jog-\tkoşu\n" +
+    "jogger-\tkoşucu\n" +
+    "purse-\tEl çantası\n" +
+    "Feet-\tayak\n" +
+    "Across-\tkarşısında\n" +
+    "Trouser-\tPantolon\n" +
+    "Destroy-\tTahrip etmek\n" +
+    "act-\tdavranmak\n" +
+    "Nagging-\tdırdırcı\n" +
+    "sparse-\tseyrek\n" +
+    "blind-\tkör\n" +
+    "headache-\tBaş ağrısı\n" +
+    "Anniversary-\tYıl dönümü\n" +
+    "Terribly-\tKorkunç derecede\n" +
+    "Occasionally-\tAra sıra\n" +
+    "communicate-\tiletişim\n" +
+    "Kniting-\tÖrgü örmek\n" +
+    "bowl-\tTas\n" +
+    "Gooey-\tAşırı duygusal\n" +
+    "Tray-\ttepsi\n" +
+    "bake-\tpişmek\n" +
+    "cool-\tserin\n" +
+    "gob-\tağız\n" +
+    "Plumber-\ttesisatçı\n" +
+    "thumb-\tBaş parmağı\n" +
+    "Expressive-\tetkileyici\n" +
+    "issues-\tsorunlar\n" +
+    "emotion-\tduygu\n" +
+    "common-\tyaygın\n" +
+    "conclusion-\tçözüm\n" +
+    "eventual-\tnihai\n" +
+    "Almost-\tneredeyse\n" +
+    "glitch-\tkusur\n" +
+    "retail-\tperakende\n" +
+    "instead-\tYerine\n" +
+    "Availability-\tKullanılabilirlik\n" +
+    "Annual-\tYıllık\n" +
+    "Truncate-\tKesmek\n" +
+    "Absolute-\tMutlak\n" +
+    "Recruit- \tAcemi\n" +
+    "Moment-\tAn\n" +
+    "Someone-\tBirisi\n" +
+    "Confident-\tKendinden emin\n" +
+    "Ground- \tZemin\n" +
+    "Stick-\tSopa\n" +
+    "Spot-\tLeke\n" +
+    "Scope-\tKapsam\n" +
+    "Expenditure-\tMasraf\n" +
+    "Sealed-\tMühürlü\n" +
+    "Proof-\tKanıt\n" +
+    "Comparison-\tKarşılaştırma\n" +
+    "Chaos- \tKaos\n" +
+    "İmproving-\tİyileştirmek \n" +
+    "Examine-\tİncelemek\n" +
+    "Consulusion-\tSonuç\n" +
+    "Aggregations-\tToplamalar\n" +
+    "Stats-\tİstatistikler\n" +
+    "Allocate-\tTahsis\n" +
+    "İmmutable-\tDeğişmez\n" +
+    "Proxy-\tVekil\n" +
+    "Buffer- \tTampon\n" +
+    "Actually-\tAslında\n" +
+    "Science-\tBilim\n" +
+    "Concat-\tBirleştirmek\n" +
+    "Split-\tBölmek\n" +
+    "Bulb-\tAmpul\n" +
+    "Cloth-\tBez\n" +
+    "Fiber-\tLif\n" +
+    "Thin- \tince\n" +
+    "Cheminal-\tKimyasal\n" +
+    "Cotton-\tPamuk\n" +
+    "Wool-\tYün\n" +
+    "Sheep-\tKoyun\n" +
+    "Fabric-\tKumaş\n" +
+    "Warmth-\tSıcaklık\n" +
+    "Shiny-\tParlak\n" +
+    "Durability-\tDayanıklılık\n" +
+    "Fanout-\tYayılmak\n" +
+    "Simplify-\tbasitleştirmek\n" +
+    "knit-\törgü örmek\n" +
+    "tied-\tbağlı\n" +
+    "dye-\tboya\n" +
+    "incompatiple-\tuyumsuz\n" +
+    "sew-\tdikmek\n" +
+    "weave-\törgü\n" +
+    "thing-\tşey\n" +
+    "leap-\tsıçramak\n" +
+    "wore-\tgiydi\n" +
+    "employment-\tiş\n" +
+    "brief-\tkısa bilgi\n" +
+    "notice-\tfark etmek\n" +
+    "themselves-\tkendilerini\n" +
+    "percent-\tyüzde\n" +
+    "freed-\tserbest\n" +
+    "desire-\tarzu\n" +
+    "orbital-\työrünge\n" +
+    "freedom-\tözgürlük\n" +
+    "baker-\tfırıncı\n" +
+    "dough-\thamur\n" +
+    "flour-\tun\n" +
+    "wheat-\tbuğday\n" +
+    "sea-\tdeniz\n" +
+    "moist-\tnemli\n" +
+    "flavor-\tlezzet\n" +
+    "sticky-\tyapışkan\n" +
+    "consumption-\ttüketim\n" +
+    "stir-\tkarıştırmak\n" +
+    "crowd-\tkalabalık\n" +
+    "taught-\töğretilen\n" +
+    "creative-\tyaratıcı\n" +
+    "crops-\tekinler\n" +
+    "harvest-\thasat\n" +
+    "establish-\tkurmak\n" +
+    "idle-\tboşta\n" +
+    "chunk-\tyığın\n" +
+    "regret-\tpişmanlık\n" +
+    "either-\therhangi biri\n" +
+    "neither-\thiçbiri\n" +
+    "handle-\tüstesinden gelmek\n" +
+    "bliss-\tmutluluk\n" +
+    "pure-\tsaf\n" +
+    "uncover-\tortaya çıkarmak\n" +
+    "manifest-\tbelirgin\n" +
+    "membership-\tüyelik\n" +
+    "division-\tbölünen\n" +
+    "infinitive-\tsonsuz\n" +
+    "prayer-\tdua\n" +
+    "transition-\tgeçiş\n" +
+    "fixable-\ttamir edilebilir\n" +
+    "cure-\tçare\n" +
+    "constantly-\tsürekli\n" +
+    "owergrown-\tbüyümüş\n" +
+    "famine-\tkıtlık\n" +
+    "flood-\tsel basmak\n" +
+    "giant-\tdevasa\n" +
+    "straight-\tdümdüz\n" +
+    "profit-\tkâr\n" +
+    "serious-\tciddi\n" +
+    "mesh-\törgü\n" +
+    "blame-\tsuçlamak\n" +
+    "alias-\ttakma ad\n" +
+    "field-\talan\n" +
+    "rollcall-\tyoklama\n" +
+    "native-\tyerli\n" +
+    "booked-\tayırtıldı\n" +
+    "bought-\tsatın almak\n" +
+    "growth-\tbüyüme\n" +
+    "tradition-\tgelenek\n" +
+    "shipment-\tgönderi\n" +
+    "advenced-\tileri\n" +
+    "reflexive-\tdönüşlü\n" +
+    "essay-\tmakale\n" +
+    "sake-\tuğruna\n" +
+    "mind-\tzihin\n" +
+    "borderland-\tsınır bölgesi\n" +
+    "silly-\taptal\n" +
+    "laid-\tkoydu\n" +
+    "pain-\tacı\n" +
+    "couple-\tçift\n" +
+    "per-\tbaşına\n" +
+    "able-\tyapabilmek\n" +
+    "principal-\tasıl\n" +
+    "worth-\tdeğer\n" +
+    "opposite-\tzıt\n" +
+    "tries-\tdener\n" +
+    "exactly-\ttam olarak\n" +
+    "pseudo-\tsözde\n" +
+    "collapse-\tçöküş\n" +
+    "overflow-\ttaşma\n" +
+    "overlay-\tkapsama\n" +
+    "copyright-\ttelif hakkı\n" +
+    "handy-\tkullanışlı\n" +
+    "isle-\tada\n" +
+    "take away-\tgötürmek\n" +
+    "complex-\tkarmaşık\n" +
+    "const-\tsabit\n" +
+    "trip-\tgezi\n" +
+    "polar-\tkutup\n" +
+    "slide-\tkaymak\n" +
+    "command-\temir\n" +
+    "peak-\tzirve\n" +
+    "tickle-\tgıdıklamak\n" +
+    "rush-\tacele etmek\n" +
+    "intersection-\tkesişim\n" +
+    "cub-\tyavru\n" +
+    "tasty-\tlezzetli\n" +
+    "subset-\talt küme\n" +
+    "hiring-\tişe alıyor\n" +
+    "ripe-\tolgun\n" +
+    "pick-\tseçmek\n" +
+    "both-\tikisi birden\n" +
+    "scatter-\tsaçma\n" +
+    "raise-\tarttırmak\n" +
+    "reduce-\tazaltmak \n" +
+    "drain-\tboşaltmak\n" +
+    "evicting-\ttahliye\n" +
+    "tuple-\tdemet\n" +
+    "scent-\tkoku\n" +
+    "pollinate-\ttozlaşmak\n" +
+    "fade-\tsolmak\n" +
+    "during-\tsırasında\n" +
+    "nervous-\tsinirli\n" +
+    "horay-\tyaşasın\n" +
+    "tenant-\tkiracı\n" +
+    "via-\taracılığıyla\n" +
+    "cons-\teksileri\n" +
+    "retain-\tsürdürmek\n" +
+    "moon-\tay\n" +
+    "sneeze-\thapşurma\n" +
+    "flat-\tdüz\n" +
+    "rectangular-\tdikdörtgen\n" +
+    "recaps-\tözetler\n" +
+    "sphere-\tküre\n" +
+    "undo-\tgeri alma\n" +
+    "liveness-\tcanlılık\n" +
+    "readiness-\thazırlık\n" +
+    "probe-\tincelemek\n" +
+    "grace-\tlütuf\n" +
+    "stateless-\tvatansız\n" +
+    "seem-\tgözükmek\n" +
+    "kind-\ttür\n" +
+    "label-\tetiket\n" +
+    "elapsed-\tgeçen\n" +
+    "journey-\tseyahat\n" +
+    "surge-\tkabarmak\n" +
+    "intellisense-\tiyileştirmek\n" +
+    "sense-\talgı\n" +
+    "convinces-\tikna eder\n" +
+    "responsibilitiy-\tsorumluluk\n" +
+    "aware-\tfarkında olmak\n" +
+    "concert-\tkanser\n" +
+    "bible-\tkutsal kitap\n" +
+    "salary-\taylık maaş\n" +
+    "tax-\tvergi\n" +
+    "implicit-\törtük\n" +
+    "explicit-\taçık\n" +
+    "audit-\tdenetim\n" +
+    "awesome-\tsüper, korkunç\n" +
+    "marshal-\tsıralamak\n" +
+    "art-\tsanat\n" +
+    "apprentice-\tçırak\n" +
+    "whether-\tikisinden biri\n" +
+    "whatever-\ther neyse\n" +
+    "divide-\tbölmek\n" +
+    "too-\taşırı\n" +
+    "abort-\tiptal etmek\n" +
+    "proposal-\tteklif\n" +
+    "deserve-\thak etmek\n" +
+    "be supposed to-\tgerekmek\n" +
+    "suppose-\tsanmak\n" +
+    "i saw-\tgördüm\n" +
+    "survive-\thayatta kalan\n" +
+    "whose-\tkimin\n" +
+    "pride-\tgurur\n" +
+    "swag-\tyağma\n" +
+    "suck-\temmek\n" +
+    "sucks-\tberbat\n" +
+    "barking-\thavlama\n" +
+    "fault-\tarıza\n" +
+    "disapperaed-\tortadan kayboldu\n" +
+    "yet-\thenüz\n" +
+    "tried-\tsınanmış\n" +
+    "sled-\tkızak\n" +
+    "hid-\tsaklanmak\n" +
+    "clause-\tcümle\n" +
+    "achive-\tbaşarmak\n" +
+    "Mind-\tZihin\n" +
+    "İcy- \tBuzlu\n" +
+    "Told- \tSöylenmiş \n" +
+    "Us-\tBiz\n" +
+    "Remaining-\tGeriye kalan\n" +
+    "Clap-\tAlkış\n" +
+    "sword-\tkılıç\n" +
+    "deer-\tgeyik\n" +
+    "swin-\tsallanan\n" +
+    "grin-\tsırıtış\n" +
+    "gigle-\tkıkırdama\n" +
+    "strange-\ttuaf\n" +
+    "calm-\tsakinlik\n" +
+    "even-\tbile\n" +
+    "hid-\tsaklamak\n" +
+    "furrier-\tkürkçü\n" +
+    "though-\tyine de\n" +
+    "around-\tetrafında\n" +
+    "Germs-\tMikroplar\n" +
+    "Realize-\tFark etmek\n" +
+    "Colocation-\tOrtak yerleşim\n" +
+    "Compliance-\tUyma\n" +
+    "Verbose- \tAyrıntılı\n" +
+    "Sneak- \tGizlice\n" +
+    "had-\tvardı\n" +
+    "lake-\tgöl\n" +
+    "inspired-\tesinlenilmiş\n" +
+    "scary-\tkorkutucu\n" +
+    "fuzzy-\tbulanık\n" +
+    "future-\tgelecek\n" +
+    "fact-\thakikat\n" +
+    "digest-\tsindirmek\n" +
+    "hill-\ttepe\n" +
+    "punch-\tyumruk\n" +
+    "lay-\tsermek\n" +
+    "stand-\tdurmak\n" +
+    "expected-\tbeklenen\n" +
+    "arrange-\tdüzenlemek\n" +
+    "assert-\tiddia etmek\n" +
+    "exact-\tbire bir aynı\n" +
+    "invisible-\tgörünmez\n" +
+    "persistence-\tısrar\n" +
+    "Hurry-\tAcele Etmek\n" +
+    "Explain-\tAçıklama\n" +
+    "Forgive-\tAffetmek\n" +
+    "Behind-\tArkada\n" +
+    "Soldier-\tAsker\n" +
+    "Lawyer-\tAvukat\n" +
+    "Shoes-\tAyakkabı\n" +
+    "Quince-\tAyva\n" +
+    "Leg-\tBacak\n" +
+    "İndependent-\tBağımsız\n" +
+    "Minister-\tBakan\n" +
+    "Capital-\tBaşkent\n" +
+    "West-\tBatı\n" +
+    "Dishwasher-\tBulaşık Makinesi\n" +
+    "Blankent-\tBattaniye\n" +
+    "Stale-\tBayat\n" +
+    "Drown-\tBoğulmak\n" +
+    "Refrigerator-\tBuzdolabı\n" +
+    "Brave-\tCesur\n" +
+    "President-\tCumhurbaşkanı\n" +
+    "Lighter-\tÇakmak\n" +
+    "Baazar-\tÇarşı\n" +
+    "Roof-\tÇatı\n" +
+    "Socks-\tÇorap\n" +
+    "Uncle-\tDayı\n" +
+    "Attention-\tDikkat\n" +
+    "Careful-\tDikkatli\n" +
+    "Carefulles-\tDikkatsiz\n" +
+    "Tongue-\tDil\n" +
+    "Wish-\tDilemek\n" +
+    "Dentist-\tDiş Hekimii\n" +
+    "East-\tDoğu\n" +
+    "Lip-\tDudak\n" +
+    "Shower-\tDuş\n" +
+    "Wall-\tDuvar\n" +
+    "Chemist-\tEczacı\n" +
+    "Dress-\tElbise\n" +
+    "Gloves-\tEldiven\n" +
+    "Generous-\tCömert\n" +
+    "Retired-\tEmekli\n" +
+    "Worry-\tEndişe Etmek\n" +
+    "Postpone-\tErtelemek\n" +
+    "Tracksuit-\tEşofman\n" +
+    "Meat-\tEt\n" +
+    "Skirt-\tEtek\n" +
+    "Beans-\tFasulye\n" +
+    "Oven-\tFırın\n" +
+    "Ship-\tGemi\n" +
+    "Reject-\tGeri Çevirmek\n" +
+    "Talkative-\tGeveze\n" +
+    "Stroll-\tGezinmek\n" +
+    "Wear-\tGiymek\n" +
+    "Navel-\tGöbek\n" +
+    "Chest-\tGöğüs\n" +
+    "Proud-\tGururlu\n" +
+    "Weak-\tGüçsüz\n" +
+    "South-\tGüney\n" +
+    "Reliable-\tGüvenilir\n" +
+    "Unreliable-\tGüvenilmez\n" +
+    "Aunt-\tHala\n" +
+    "Pregnant-\tHamile\n" +
+    "Pill-\tHap\n" +
+    "Prison-\tHapishane\n" +
+    "Except-\tHariç\n" +
+    "Marvellous-\tHarika\n" +
+    "Damage-\tHasar Vermek\n" +
+    "Patient-\tHasta\n" +
+    "Towel-\tHavlu\n" +
+    "İmagine-\tHayal Etmek\n" +
+    "Ambitious-\tHırslı\n" +
+    "Warm-\tIlık\n" +
+    "Underwear-\tİç Çamaşırı\n" +
+    "Twin-\tİkiz\n" +
+    "Climate-\tİklim\n" +
+    "Medicine-\tİlaç\n" +
+    "Believe-\tİnanmak\n" +
+    "Stubborn-\tİnatçı\n" +
+    "Escape-\tKaçmak\n" +
+    "Crowded-\tKalabalık\n" +
+    "Hip-\tKalça\n" +
+    "Heating-\tKalorifer\n" +
+    "Blood-\tKan\n" +
+    "Gain-\tKar\n" +
+    "Decide-\tKarar Vermek\n" +
+    "Determined-\tKararlı\n" +
+    "Compare-\tKarşılaştırmak\n" +
+    "Spoon-\tKaşık\n" +
+    "Sking-\tKayak\n" +
+    "Carefree-\tKaygısız\n" +
+    "Accident-\tKaza\n" +
+    "Handcuffs-\tKelepçe\n" +
+    "Belt-\tKemer\n" +
+    "Jealous-\tKıskanç\n" +
+    "Air Conditioning-\tKlima\n" +
+    "Arm-\tKol\n" +
+    "Wristwatch-\tKol Saati\n" +
+    "Cologne-\tKolonya\n" +
+    "Accomodation-\tKonaklama\n" +
+    "Consulate-\tKonsolosluk\n" +
+    "Fear-\tKorkmak\n" +
+    "Protect-\tKorumak\n" +
+    "Hairdresser-\tKuaför\n" +
+    "Ear-\tKulak\n" +
+    "Powerfull-\tKuvvetli\n" +
+    "North-\tKuzey\n" +
+    "Delicious-\tLezzetli\n" +
+    "Medal-\tMadalya\n" +
+    "Scissors-\tMakas\n" +
+    "Tangerine-\tMandalina\n" +
+    "Scenery-\tManzara\n" +
+    "Parliament-\tMeclis\n" +
+    "Breast-\tMeme\n" +
+    "Civil Servant-\tMemur\n" +
+    "Wonder-\tMerak Etmek\n" +
+    "Stair-\tMerdiven\n" +
+    "Square-\tMeydan\n" +
+    "Fruits-\tMeyve\n" +
+    "Graduate-\tMezun\n" +
+    "Bookkeeping-\tMuhasebe\n" +
+    "Excellent-\tMükemmel\n" +
+    "Crew-\tMürettebat\n" +
+    "Pulse-\tNabız\n" +
+    "Honest-\tDürest\n" +
+    "Cheerful-\tNeşeli\n" +
+    "Engaged-\tNişanlı\n" +
+    "Son-\tOğul\n" +
+    "Noon-\tÖğle\n" +
+    "Cough-\tÖksürmek\n" +
+    "Finger-\tParmak\n" +
+    "Napkin-\tPeçete\n" +
+    "Disturb-\tRahatsız Etmek\n" +
+    "Opponent-\tRakip\n" +
+    "Wind-\tRüzgar\n" +
+    "Beard-\tSakal\n" +
+    "Election-\tSeçim\n" +
+    "Cool-\tSerin\n" +
+    "Erase-\tSilmek\n" +
+    "Nervous-\tSinirli\n" +
+    "Fog-\tSis\n" +
+    "Autumn-\tSonbahar\n" +
+    "Be Thirsty-\tSusamak\n" +
+    "Bra-\tSüdyen\n" +
+    "Joke-\tŞaka Yapmak\n" +
+    "Spoiled-\tŞımarık\n" +
+    "Complain-\tŞikayet Etmek\n" +
+    "Lightning-\tŞimşek\n" +
+    "Fat-\tŞişman\n" +
+    "Suspect-\tŞüphelenmek\n" +
+    "Plate-\tTabak\n" +
+    "Suit-\tTakım Elbise\n" +
+    "İmitate-\tTaklit Etmek\n" +
+    "Repair-\tTamir Etmek\n" +
+    "Recognize-\tTanımak\n" +
+    "Comb-\tTarak\n" +
+    "Discuss-\tTartışmak\n" +
+    "Carry-\tTaşımak\n" +
+    "Taste-\tTatmak\n" +
+    "Advise-\tTavsiye Etmek\n" +
+    "Hit-\tVurmak\n" +
+    "Handsome-\tYakışıklı\n" +
+    "Light-\tYakmak\n" +
+    "Lonely-\tYalnız\n" +
+    "Near-\tYakın\n" +
+    "Helpful-\tYardımsever\n" +
+    "Judge-\tYargıç\n" +
+    "Forbid-\tYasaklamak\n" +
+    "Pillow-\tYastık\n" +
+    "İnvestment-\tYatırım\n" +
+    "Author-\tYazar\n" +
+    "Renewal-\tYenileme\n" +
+    "Adult-\tYetişkin\n" +
+    "Bell-\tZil\n" +
+    "Passanger-\tYol\n" +
+    "İnjure-\tİncitmek\n" +
+    "Fall-\tDüşmek\n" +
+    "Look Like-\tBenzemek\n" +
+    "Selfish-\tBencil\n" +
+    "Excited-\tHeyecanlı\n" +
+    "Shovel-\tKürek\n" +
+    "Hugs-\tSarılmak\n" +
+    "Describe-\tTanımlamak\n" +
+    "Anthem-\tMarş\n" +
+    "Yell-\tBağırmak\n" +
+    "Carpet-\tHalı\n" +
+    "Scribe-\tYazmak\n" +
+    "Neighbour-\tKomşu\n" +
+    "Brought-\tGeliştirilmiş\n" +
+    "Tent-\tÇadır\n" +
+    "Fire-\tAteş\n" +
+    "Lot-\tÇok\n" +
+    "İmperative-\tZorunlu\n" +
+    "Mount-\tBinmek\n" +
+    "Terminating-\tSonlandırmak\n" +
+    "Declare-\tBildirmek\n" +
+    "Kind-\tTür\n" +
+    "Spec-\tÖzellik\n" +
+    "Tier-\tAşama\n" +
+    "Detection-\tTespit Etmek\n" +
+    "Recent-\tSon\n" +
+    "Stub-\tTaslak\n" +
+    "Remind-\tHatırlamak\n" +
+    "Distribute-\tDağıtmak\n" +
+    "Expand-\tGenişletmek\n" +
+    "Compression-\tSıkıştırmak\n" +
+    "Transmission-\tİletim\n" +
+    "Bountie-\tİkramiye\n" +
+    "Stateful-\tDurum Bilgili\n" +
+    "Cluster-\tKüme\n" +
+    "Retries-\tYeniden Dener\n" +
+    "Associate-\tİş Arkadaşı\n" +
+    "Premises-\tMülk\n" +
+    "Edge-\tKöşe\n" +
+    "Receive-\tAlmak\n" +
+    "Allocate-\tTahsis Etmek\n" +
+    "Wonderful-\tMüthiş\n" +
+    "Migration-\tGöç\n" +
+    "Trail-\tİz\n" +
+    "Collect-\tToplamak\n" +
+    "Enought-\tYeterli\n" +
+    "Sorrow-\tÜzüntü\n" +
+    "Superlative-\tÜstün\n" +
+    "Far-\tUzak\n" +
+    "Worst-\tEn Kötü\n" +
+    "Suspend-\tAskıya Almak\n" +
+    "Replication-\tÇoğaltmak\n" +
+    "Glacier-\tBuzul\n" +
+    "Snap-\tAni\n" +
+    "Desired-\tİstenen\n" +
+    "Tenancy-\tKiralık\n" +
+    "Bound-\tBağlı\n" +
+    "Precision-\tKesinlik\n" +
+    "Employee-\tÇalışan\n" +
+    "Append-\tEklemek\n" +
+    "Concurrency-\tEş Zamanlılık\n" +
+    "Relational-\tİlişki\n" +
+    "Replica-\tKopyası\n" +
+    "Ever-\tDurmadan\n" +
+    "Condition-\tŞart\n" +
+    "Wote-\tOy\n" +
+    "Reach-\tUlaşmak\n" +
+    "Rescues-\tKurtarmak\n" +
+    "Anger-\tÖfke\n" +
+    "Dare-\tCesaret Etmek\n" +
+    "Revert-\tEski Haline Getirmek\n" +
+    "Destination-\tHedef\n" +
+    "Representation-\tTemsil\n" +
+    "Grant-\tHibe\n" +
+    "Claim-\tTalep\n" +
+    "Accessor-\tErişimci\n" +
+    "Audience-\tKitle\n" +
+    "Presentation-\tKesinlik\n" +
+    "İnfrastructure-\tAlt Yapı\n" +
+    "Handlers-\tİşleyiciler\n" +
+    "Caption-\tAlt Yazı\n" +
+    "Consisteny-\tEş Zamanlılık\n" +
+    "Assertion-\tHakkını Arama\n" +
+    "Latency-\tGecikme\n" +
+    "Trouble-\tSıkıntı\n" +
+    "Trap-\tTuzak Kurma\n" +
+    "Hunter-\tAvcı\n" +
+    "Poking-\tDürtme\n" +
+    "Sweet-\tTatlı\n" +
+    "Would-\tİstemek\n" +
+    "Alone-\tTek Başına\n" +
+    "Fellow-\tDost\n" +
+    "Jeans-\tKot Pantolon\n" +
+    "Tie-\tKravat\n" +
+    "Flu-\tGrip\n" +
+    "Mouth-\tAğız\n" +
+    "Toe-\tAyak Parmağı\n" +
+    "Waist-\tBel\n" +
+    "Heart-\tKalp\n" +
+    "Violin-\tKeman\n" +
+    "Pub-\tBar\n" +
+    "Carton-\tÇizgi Film\n" +
+    "Whisper-\tFısıldamak\n" +
+    "Horror-\tKorku\n" +
+    "Toy-\tOyuncak\n" +
+    "Novel-\tRoman\n" +
+    "Song-\tŞarkı\n" +
+    "Announcer-\tYorumcu\n" +
+    "Gracer-\tBakkal\n" +
+    "Cook-\tAşçı\n" +
+    "Everywhere-\tHeryerde\n" +
+    "Tyre-\tLastik\n" +
+    "Motorway-\tOtoban\n" +
+    "Gear-\tVites\n" +
+    "Chair-\tSandaliye\n" +
+    "Wine-\tŞarap\n" +
+    "Coat-\tPalto\n" +
+    "Slippers-\tTerlik\n" +
+    "Genuine-\tGerçek\n" +
+    "Nail-\tTırnak\n" +
+    "Chorus-\tKoro\n" +
+    "Director-\tYönetmen\n" +
+    "Poem-\tŞiir\n" +
+    "Key Holder-\tAnahtarlık\n" +
+    "Moustache-\tBıyık\n" +
+    "Jump-\tAtlamak\n" +
+    "Separate-\tAyırmak\n" +
+    "Bed Sheet-\tÇarşaf\n" +
+    "Consult-\tDanışmak\n" +
+    "Frost-\tDon\n" +
+    "Profession-\tMeslek\n" +
+    "Belong To-\tAit Olmak\n" +
+    "Foot-\tAyak\n" +
+    "Frosty-\tBuzlu\n" +
+    "Adjust-\tAyarlamak\n" +
+    "Lifeguard-\tCan Kurtaran\n" +
+    "Attractive-\tÇekici\n" +
+    "Hard Working-\tÇalışkan\n" +
+    "Consultant-\tDanışman\n" +
+    "Experienced-\tDeneyimli\n" +
+    "Temperature-\tDerece\n" +
+    "Handbag-\tEl Çantası\n" +
+    "Stormy-\tFırtınalı\n" +
+    "Journalist-\tGazeteci\n" +
+    "Shirt-\tGömlek\n" +
+    "Glasses-\tGözlük\n" +
+    "Remind-\tHatırlamak\n" +
+    "Goverment-\tHükümet\n" +
+    "Burly-\tİri Yarı\n" +
+    "Get Up-\tKalkmak\n" +
+    "For Rent-\tKiralık\n" +
+    "Confused-\tŞaşkın\n" +
+    "Struct-\tYapı\n" +
+    "Aggrement- \tAnlaşma\n" +
+    "Override-\tÇiğnemek\n" +
+    "Vehicle- \tAraç\n" +
+    "Private-\tÖzel\n" +
+    "Protected-\tKorumalı\n" +
+    "Invoke-\tÇağırmak\n" +
+    "Merchant- \tTüccar\n" +
+    "Slient-\tSessiz\n" +
+    "Advanced-\tGelişmiş\n" +
+    "Congratulate-\tTebrik Etmek\n" +
+    "Cure-\tTedavi Etmek\n" +
+    "Threaten-\tTehdit Etmek\n" +
+    "Offer-\tTeklif Etmek\n" +
+    "Prefer-\tTercih Etmek\n" +
+    "İnterpreter-\tTercüman\n" +
+    "Tailor-\tTerzi\n" +
+    "Shave-\tTraş Olmak\n" +
+    "Aircraft-\tUçak\n" +
+    "Transportation-\tUlaşım\n" +
+    "Hope-\tUmut Etmek\n" +
+    "Shy-\tUtangaç\n" +
+    "Wake Up-\tUyanmak\n" +
+    "Expert-\tUzman\n" +
+    "Luggage-\tValiz\n" +
+    "İnterval-\tAralık\n" +
+    "Pressure-\tBasınç\n" +
+    "Depricated-\tKullanımdan kaldırıldı\n" +
+    "Strict-\tSıkı\n" +
+    "Maintance-\tBakım\n" +
+    "Justify-\tSavunmak\n" +
+    "Promise-\tMülk\n" +
+    "Stream-\tAkış\n" +
+    "Asset-\tVarlık\n" +
+    "Crippled-\tSakat\n" +
+    "Brute-\tKaba\n" +
+    "İnherist-\tMirasçı\n" +
+    "Bind-\tBağlamak\n" +
+    "Nested-\tYuvalanmış\n" +
+    "Disposable-\tTek Kullanımlık\n" +
+    "Peel-\tSoymak\n" +
+    "Reward-\tÖdül\n" +
+    "Estimate-\tTahmin Etmek\n" +
+    "Furniture-\tMobilya\n" +
+    "Cost-\tMaliyet\n" +
+    "İndigator-\tGösterge\n" +
+    "Extend-\tGenişlemek\n" +
+    "Fewer-\tDaha Az\n" +
+    "Blow-\tÜflemek\n" +
+    "Spend-\tHarcamak\n" +
+    "Weater-\tHava Durumu\n" +
+    "Dull-\tSıkıcı\n" +
+    "Might-\tBelki\n" +
+    "Sad-\tÜzgün\n" +
+    "Present-\tSunmak\n" +
+    "Suck-\tEmmek\n" +
+    "Bone-\tKemik\n" +
+    "Trim-\tKırpmak\n" +
+    "Present-\tSunmak\n" +
+    "Bring-\tGetirmek\n" +
+    "Rectangle-\tDikdörtgen\n" +
+    "Nearly-\tNeredeyse\n" +
+    "Waiter-\tGarson\n" +
+    "Waitress-\tGarson\n" +
+    "Hospital-\tHastane\n" +
+    "İnjection-\tİğne\n" +
+    "Supporter-\tTaraftar\n" +
+    "Earn-\tGelir\n" +
+    "Tablecloth-\tMasa Örtüsü\n" +
+    "Merital Status-\tMedeni Durum\n" +
+    "Reporter-\tMuhabir\n" +
+    "Climb-\tTırmanmak\n" +
+    "Arrest-\tTutuklamak\n" +
+    "Wild-\tVahşi\n" +
+    "Certainly-\tKesinlikle\n" +
+    "Premium-\tBirincil Kalite\n" +
+    "Debit Card-\tBanka Kartı\n" +
+    "Road Map-\tYol haritası\n" +
+    "Guidbook-\tRehber\n" +
+    "Optician-\tGözlükçü\n" +
+    "Abdomen-\tKarın\n" +
+    "Muscle-\tKas\n" +
+    "Planet-\tGezegen\n" +
+    "Reluctantly-\tİsteksizce\n" +
+    "Soar-\tUçmak\n" +
+    "Bounce-\tSıçrama \n" +
+    "Warn-\tUyarmak\n" +
+    "Daemon-\tArka plan programı\n" +
+    "Noise-\tGürültü\n" +
+    "Exactly-\tAynen öyle\n" +
+    "Shout-\tBağırmak \n" +
+    "Interested-\tİlgilenen\n" +
+    "Glad-\tMemnun\n" +
+    "Attach- \tEklemek\n" +
+    "Lectures-\tDersler\n" +
+    "Swap-\tTakas\n" +
+    "Tought-\tDüşünce\n" +
+    "Offset-\tTelafi Etmek\n" +
+    "Abandon-\tTerk Etmek\n" +
+    "Justify-\tSavunmak\n" +
+    "Cute-\tSevimli\n" +
+    "Fur-\tKürk\n" +
+    "Hunt-\tAvlanmak\n" +
+    "Fighter-\tSavaşçı\n" +
+    "Firefighter-\tİtfaiyeci\n" +
+    "Lift-Kaldırmak\n" +
+    "Grow-\tBüyümek\n" +
+    "Similar-\tBenzer\n" +
+    "Deal-\tAnlaşma\n" +
+    "Commend-\tÖvmek\n" +
+    "Recommend-\tÖnermek\n" +
+    "Mind-\tZil\n" +
+    "Hallow-\tKutsal\n" +
+    "Scarry-\tKorkutucu\n" +
+    "Knife-\tBıçak\n" +
+    "Knock-\tVurmam\n" +
+    "Less-\tDaha Az\n" +
+    "Architect-\tMimar\n" +
+    "Mature-\tOlgun\n" +
+    "Sure-\tElbette\n" +
+    "Maybe-\tOlabilir\n" +
+    "Cheaper-\tDaha Ucuz\n" +
+    "Nowhere-\tHiçbir yerde\n" +
+    "Near-\tYakın\n" +
+    "Seat-\tKoltuk\n" +
+    "Horn-\tKorna\n" +
+    "Spicy-\tAcı\n" +
+    "Grilled-\tIzgara\n" +
+    "Jam-\tReçel\n" +
+    "Meat Balls-\tKöfte\n" +
+    "Butter-\tZeytin Yağı\n" +
+    "Kioks-\tBüfe\n" +
+    "Razor-\tJilet\n" +
+    "Plaster-\tYara Bandı\n" +
+    "Jumper-\tKazak\n" +
+    "Sweater-\tSüveter\n" +
+    "Bet-\tBahse Girmek\n" +
+    "Skilful-\tBecerikli\n" +
+    "Bathrobe-\tBornoz\n" +
+    "Teabot-Çaydanlık\n" +
+    "Strawberry-\tÇilek\n" +
+    "Railway-\tDemir Yolu\n" +
+    "Skin-\tDeri\n" +
+    "Religious-\tDindar\n" +
+    "Effect-\tEtkilemek\n" +
+    "Laugh-\tGülmek\n" +
+    "Prepare-\tHazırlamak\n" +
+    "Cause-\tNeden Olmak\n" +
+    "Hate-\tNefret Etmek\n" +
+    "Apologize-\tÖzür Dilemek\n" +
+    "Curtain-\tPerde\n" +
+    "Pilaff-\tPilav\n" +
+    "Boring-\tSıkıcı\n" +
+    "Shampoo-\tŞampuan\n" +
+    "Guess-\tTahmin etmek\n" +
+    "Technician-\tTeknisyen\n" +
+    "Strangeat-\tEn tuaf\n" +
+    "Probably-\tMuhtemelen\n" +
+    "Mess-\tKarışıklık\n" +
+    "Exposé-\tAçığa çıkarmak\n" +
+    "Junk-\tÖnemsiz\n" +
+    "Tornado-\tKasırga\n" +
+    "Throne-\tTaht\n" +
+    "Staff-\tPersonel\n" +
+    "Polite-\tKibar\n" +
+    "Swarm- \tSürü\n" +
+    "Handful-\tAvuç\n" +
+    "Juice-\tMeyve suyu\n" +
+    "Spell-\tHarf harf kodlamak\n" +
+    "Become-\tOlmak\n" +
+    "Suddenly-\tBirden\n" +
+    "Rent-\tKiralamak\n" +
+    "Smell-\tKokmak\n" +
+    "Jeweller-\tKuyumcu\n" +
+    "Excamination-\tİnceleme\n" +
+    "Miss-Özlemek\n" +
+    "Pistol-\tTabanca\n" +
+    "Deliver-\tTeslim etmek\n" +
+    "Produce-\tÜretmek\n" +
+    "Visa-\tVize\n" +
+    "Travel-\tYolculuk etmek\n" +
+    "Soap-\tSabun\n" +
+    "Toothpaste-\tDiş macunu\n" +
+    "Mosque-\tCami\n" +
+    "Hold-\tTutmak\n" +
+    "Pickle-\tTurşu\n" +
+    "Demand-\tTalep etmek\n" +
+    "Cake-\tPasta\n" +
+    "Shoulder-\tOmuz\n" +
+    "Laugh-\tGülmek\n" +
+    "Turn-\tDönmek\n" +
+    "Rid-\tKurtulmak\n" +
+    "Consider-\tDüşünmek\n" +
+    "Aspect-\tBakış açısı\n" +
+    "Oriented-\tOdaklı\n" +
+    "Reusability-\tTek kullanılabilirlik\n" +
+    "Modularity-\tModulerlik\n" +
+    "İntercept-\tTutmak\n" +
+    "Concern-\tİlgilendirmek\n" +
+    "Affinity-\tYakınlık\n" +
+    "Taint-\tLeke\n" +
+    "Toleration-\tHoş Görü\n" +
+    "Persistent-\tIsrarcı\n" +
+    "İmmediate-\tHemen\n" +
+    "Stranger-\tYabancı\n" +
+    "Suddenly-\tBirden\n" +
+    "İmplementation-\tUygulama\n" +
+    "Talent-\tYetenek\n" +
+    "Acquisition-\tKazanma\n" +
+    "Executive-\tYönetici \n" +
+    "Careers-\tKariyer\n" +
+    "Blend- \tKarışım\t\n" +
+    "Relational- \tİlişkisel\n" +
+    "strangeat-\ten tuaf\n" +
+    "probably-\tmuhtemelen\n" +
+    "mess-\tkarışıklık\n" +
+    "expose-\taçığa çıkarmak\n" +
+    "junk-\tönemsiz\n" +
+    "tornado-\tkasırga\n" +
+    "throne-\ttaht\n" +
+    "staff-\tpersonel\n" +
+    "polite-\tkibar\n" +
+    "hook-\tkanca\n" +
+    "benchmark-\tkalite testi\n" +
+    "dispose-\telden çıkarmak\n" +
+    "eager-\tistekli\n" +
+    "dispatch-\tsevk\n" +
+    "detect-\ttespit etmek\n" +
+    "magic-\tbüyü\n" +
+    "Associate-\tortak\n" +
+    "bucket-\tkova\n" +
+    "vault-\tmahzen\n" +
+    "spread-\tyayılmış";
+
+let deneme = s.split("\n");
+console.log(deneme.length)
+deneme.map( async x=>{
+    let wd =x.split("-");
+    let w1 = wd[0];
+    let w2 = wd[1].trim();
+    console.log(`${w1} ${w2}`)
+    let word:WordList = {question:w1,answer:w2}
+    //await axios.post("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json",word);
+
+})

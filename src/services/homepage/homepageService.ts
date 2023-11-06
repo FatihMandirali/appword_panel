@@ -11,7 +11,14 @@ const transform = (response:WordDto[]): Promise<WordDto[]> => {
 };
 export class WordListService implements IWordListService{
 
-    getShuffle = (array: string[]) => {
+    getShuffleAnswer = (array: string[]) => {
+        for (let i = array.length-1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    };
+    getShuffleQuestion = (array: WordList[]) => {
         for (let i = array.length-1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
@@ -19,11 +26,8 @@ export class WordListService implements IWordListService{
         return array;
     };
     getWordList = async (): Promise<WordDto[]> => {
-        //let word:WordList = {question:"blue",answer:"mavi"}
         let wordResponseList:WordList[];
         let wordList1:WordDto[]=[];
-
-        //let res = axios.post("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json",word);
         await axios.get<WordList[]>("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json")
             .then(res=>{
                 wordResponseList=Object.values(res.data);
@@ -31,9 +35,11 @@ export class WordListService implements IWordListService{
                 wordResponseList.map(x=>{
                     answerList.push(x.answer)
                 })
+
+                wordResponseList = this.getShuffleQuestion(wordResponseList);
                 wordResponseList.map(x=>{
-                    let shuffle:string[] = this.getShuffle(answerList.filter(y=>y!==x.answer));
-                    let answerShuffleList:string[] =  this.getShuffle([shuffle[0],shuffle[1],shuffle[2],x.answer])
+                    let shuffle:string[] = this.getShuffleAnswer(answerList.filter(y=>y!==x.answer));
+                    let answerShuffleList:string[] =  this.getShuffleAnswer([shuffle[0],shuffle[1],shuffle[2],x.answer])
                     wordList1.push({
                         question:x.question,
                         trueAnswer:x.answer,
