@@ -28,7 +28,7 @@ export class WordListService implements IWordListService{
     getWordList = async (): Promise<WordDto[]> => {
         let wordResponseList:WordList[];
         let wordList1:WordDto[]=[];
-        /*await axios.get<WordList[]>("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json")
+        await axios.get<WordList[]>("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json")
             .then(res=>{
                 wordResponseList=Object.values(res.data);
                 let answerList:string[]=[];
@@ -49,7 +49,7 @@ export class WordListService implements IWordListService{
                         answer4:answerShuffleList[3]
                     })
                 })
-            });*/
+            });
         return transform(wordList1);
     }
 }
