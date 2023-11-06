@@ -1,16 +1,15 @@
 import "./css/Index.css"
 import {useEffect, useState} from "react";
 import {WordListService} from "../../services/homepage/homepageService";
-import {WordList} from "../../dtos/wordList";
+import {WordDto} from "../../dtos/wordDto";
 function Index(){
-    const [wordList,setWordList] = useState<WordList[]>([]);
+    const [wordList,setWordList] = useState<WordDto[]>([]);
     const [step,setStep] = useState<number>(0);
 
     useEffect(() => {
         const repository: WordListService = new WordListService();
 
-        repository.getWordList().then((response: WordList[]) => {
-            console.log("test");
+        repository.getWordList().then((response: WordDto[]) => {
             setWordList(response);
         });
     }, []);
