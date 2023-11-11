@@ -10,4 +10,5 @@ export type WordDto = {
 export type WordList = {
     question: string,
     answer:string
+    id?:string
 }

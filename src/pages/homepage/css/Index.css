@@ -42,3 +42,18 @@
     border: 0;
     padding: 10px;
 }
+
+.unknownWordDiv{
+    background-color: red;
+}
+.knownWordDiv{
+    background-color: green;
+}
+.knownWordBtn{
+    color: white;
+}
+
+
+.unknownWordBtn{
+    color: white;
+}
