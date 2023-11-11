@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/appword_panel/static/css/main.3a633017.css",
-    "main.js": "/appword_panel/static/js/main.5d50624e.js",
+    "main.css": "/appword_panel/static/css/main.3e21192c.css",
+    "main.js": "/appword_panel/static/js/main.09e843bb.js",
     "static/js/787.32c6edd3.chunk.js": "/appword_panel/static/js/787.32c6edd3.chunk.js",
     "index.html": "/appword_panel/index.html",
-    "main.3a633017.css.map": "/appword_panel/static/css/main.3a633017.css.map",
-    "main.5d50624e.js.map": "/appword_panel/static/js/main.5d50624e.js.map",
+    "main.3e21192c.css.map": "/appword_panel/static/css/main.3e21192c.css.map",
+    "main.09e843bb.js.map": "/appword_panel/static/js/main.09e843bb.js.map",
     "787.32c6edd3.chunk.js.map": "/appword_panel/static/js/787.32c6edd3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a633017.css",
-    "static/js/main.5d50624e.js"
+    "static/css/main.3e21192c.css",
+    "static/js/main.09e843bb.js"
   ]
 }
