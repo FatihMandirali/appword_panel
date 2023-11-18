@@ -5,6 +5,7 @@ export interface IWordListService{
     getWordList():Promise<WordDto[]>;
     getUnknownWordList():Promise<WordDto[]>;
     deleteUnknownWord(name:string):void;
+    createNewWord(question:string,word:string):void;
     postUnknownWord(question:string, answer:string):Promise<string>;
 }
 const transform = (response:any): Promise<any> => {
@@ -112,5 +113,10 @@ export class WordListService implements IWordListService{
                 await axios.delete(`https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/unknown/${deletedWord===undefined?0:deletedWord.id}.json`);
             });
 
+    }
+
+    createNewWord = async (question: string, word: string)  => {
+        let newWord: WordList = {question: question, answer: word}
+        await axios.post("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json",newWord);
     }
 }

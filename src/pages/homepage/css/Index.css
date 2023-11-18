@@ -57,3 +57,14 @@
 .unknownWordBtn{
     color: white;
 }
+
+.newWordBtn{
+    background-color:cornflowerblue;
+    border-radius: 20px;
+}
+
+.txt{
+    width: 100%;
+    font-size: 21px;
+    border-radius: 20px;
+}

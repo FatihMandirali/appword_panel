@@ -6,6 +6,9 @@ function Index(){
     const [wordList,setWordList] = useState<WordDto[]>([]);
     const [unknownWordList,setUnknownWordList] = useState<WordDto[]>([]);
     const [step,setStep] = useState<number>(0);
+    const [newQuestion,setNewQuestion] = useState<string>("");
+    const [newAnswer,setNewAnswer] = useState<string>("");
+    const [loading,setLoading] = useState<boolean>(false);
     const [stepUnknown,setStepUnknown] = useState<number>(0);
     const repository: WordListService = new WordListService();
 
@@ -97,6 +100,35 @@ function Index(){
         );
     }
 
+    const CreateNewRequestService = () =>{
+        if(newQuestion == "" || newAnswer == "")
+            alert("Lütfen boşluk bırakmayın")
+        setLoading(true);
+        repository.createNewWord(newQuestion,newAnswer).then(res=>{
+            repository.getWordList().then((response: WordDto[]) => {
+                setWordList(response);
+            });
+            setNewQuestion("");
+            setNewAnswer("");
+            setLoading(false);
+        });
+    }
+
+    const CreateNewQuestion = () =>{
+
+        return(
+            <div>
+                <input type={"text"} value={newQuestion} placeholder={"Question"} className={"txt"} onChange={(e) =>setNewQuestion(e.target.value)}/>
+                <br/>
+                <br/>
+                <input type={"text"} value={newAnswer} placeholder={"Answer"} className={"txt"} onChange={(e) =>setNewAnswer(e.target.value)}/>
+                <br/>
+                <br/>
+                <button className={"btn newWordBtn"} style={loading ? { display:"none"}:{ display:"block"}} onClick={()=>CreateNewRequestService()}>Kaydet</button>
+            </div>
+        );
+    }
+
     const UnknownWordQuestionSolution = () =>{
         if(unknownWordList.length<=0){
             alert("Çözülecek Kelime Bulunamadı.");
@@ -131,7 +163,7 @@ function Index(){
                     <div className={"clearBoth"}></div>
                     <br/>
                     <div className={"knownWordDiv borderRadius"}>
-                        <button onClick={()=>repository.deleteUnknownWord(word.question)} className={"btn knownWordBtn"}>Unknown</button>
+                        <button onClick={()=>repository.deleteUnknownWord(word.question)} className={"btn knownWordBtn"}>Known</button>
                     </div>
 
                 </div>
@@ -147,7 +179,9 @@ function Index(){
             <br/>
             <br/>
             {unknownWordList.length>0 ? UnknownWordQuestionSolution() : "Bekleniyor"}
-
+            <br/>
+            <br/>
+            {CreateNewQuestion()}
         </div>
 
     );
