@@ -1,0 +1,81 @@
+        let s:string ="Equipment: techizat \n" +
+            "Winsure: kazanma garantisi\n" +
+            "Goods: mal\n" +
+            "Dimension: boyut\n" +
+            "Mystery: gizem\n" +
+            "Span: açıklık\n" +
+            "Gaze: bakış\n" +
+            "Beast: canavar\n" +
+            "Quite: epeyce\n" +
+            "Tough: zorlu\n" +
+            "Crious: meraklı\n" +
+            "Soul: ruh\n" +
+            "Echoed: yankılandı\n" +
+            "İnpenetrable: aşılmaz\n" +
+            "Snare: tuzak\n" +
+            "Frustrate: hayal kırıklığına uğratmak\n" +
+            "Frustrating: sinir bozucu \n" +
+            "Adventure: macera\n" +
+            "Corporate: kurumsal\n" +
+            "Workout: antrenman yapmak\n" +
+            "Regular: Düzenli\n" +
+            "Born: doğmak\n" +
+            "Widnessed: genişlemiş\n" +
+            "Especially: özellikle \n" +
+            "İnsignificant: önemsiz \n" +
+            "Significant: önemli\n" +
+            "Cave: mağara\n" +
+            "Tenderly: şefkatle\n" +
+            "Forehead: alın\n" +
+            "Ray: ışın\n" +
+            "Whisteling: Islık çalmak\n" +
+            "Hallway: koridor\n" +
+            "Sip: yudumlamak\n" +
+            "Grap: kapmak\n" +
+            "Pity: acımak\n" +
+            "Pretty: tatlı,güzel,oldukça\n" +
+            "Coworker: iş arkadaşı\n" +
+            "Carrot:havuç\n" +
+            "Relating: ilgili\n" +
+            "İnfluence: etkilemek\n" +
+            "Gather: toplamak\n" +
+            "Greengrocer: manav\n" +
+            "Grocer: bakkal\n" +
+            "Usual: olağan\n" +
+            "Unusual: olağan dışı\n" +
+            "Definitely: kesinlikle\n" +
+            "Perhaps: belki\n" +
+            "Healtheir: daha sağlıklı\n" +
+            "Peacefully:huzur içinde\n" +
+            "Hike: yürüyüş\n" +
+            "governance: yönetim\n" +
+            "Flutter: çarpıntı\n" +
+            "Wing:kanat\n" +
+            "Broader: daha geniş\n" +
+            "Exclusions:istisnalar\n" +
+            "Remediation:iyileştirmek\n" +
+            "Advertisement: reklamcılık\n" +
+            "Fold: katlamak\n" +
+            "Closely: yakından\n" +
+            "Clerk: tezgahtar \n" +
+            "Reliability: güvenilirlik\n" +
+            "Although:rağmen\n" +
+            "Caring:önemseme\n" +
+            "Appear:belli olmak\n" +
+            "Conduct:yönetmek\n" +
+            "Combine: birleştirmek \n" +
+            "Liquid:sıvı\n" +
+            "Occurs:meydana gelmek\n" +
+            "Hint:ipucu\n" +
+            "Pond:gölet\n" +
+            "Entire:bütün";
+        let deneme:string[] = s.split("\n");
+        console.log(deneme.length)
+        deneme.map( async x=> {
+            let wd = x.split(":");
+            let w1 = wd[0];
+            let w2 = wd[1].trim();
+            console.log(`${w1} ${w2}`)
+            let word: WordList = {question: w1, answer: w2}
+           // await axios.post("https://engword-53111-default-rtdb.europe-west1.firebasedatabase.app/words.json",word);
+        });
